@@ -13,3 +13,6 @@ const Comment = props => {
 
 
 export default Comment;
+
+// explanation
+// 1. by inheriting props from CommentSectionContainer, we can then return each comment with its username and text property

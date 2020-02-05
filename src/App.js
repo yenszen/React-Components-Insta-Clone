@@ -26,3 +26,7 @@ const App = () => {
 };
 
 export default App;
+
+// explanation
+// 1. the imports represent the child components of this parent component
+// 2. we set up state so that we can pass on the states into the child component (declared in the function) as PROPS

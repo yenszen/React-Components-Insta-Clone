@@ -19,3 +19,6 @@ const PostsPage = props => {
 
 export default PostsPage;
 
+// explanation
+// 1. we map through the data which is a property (i.e. props) of the parent component of this child component
+// 2. always RETURN what we have mapped, and in this case we return its child component

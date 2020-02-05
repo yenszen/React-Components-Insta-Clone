@@ -11,7 +11,7 @@ const CommentSection = props => {
   return (
     <div>
       {/* map through the comments data and return the Comment component */}
-      {props.comments.map( (comment, index) => {
+      {comments.map( (comment, index) => {
         return <Comment comment={comment} key={index} />
       })}
       <CommentInput />
@@ -20,3 +20,7 @@ const CommentSection = props => {
 };
 
 export default CommentSection;
+
+// explanation
+// 1. we set up state so that <Comment /> can inherit as props
+// 2. we return each element in the props.comments with a <Comment /> with the props for which it will inherit
